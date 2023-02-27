@@ -6,5 +6,6 @@ The project is a landing page with announcements of company events
 - countdown timer
 - smooth scroll to anchors
 - custom accordion
+- sending a form by Ajax
 - animation of elements appearance
-### Deploy: 
+### Deploy: https://oxymoor.github.io/Lead/
