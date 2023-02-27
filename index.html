@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <img class="header__bg-left" src="./assets/img/bg-left.svg" alt="image: background" data-aos="fade-down-right" data-aos-duration="1000">
+            <img class="header__bg-right" src="./assets/img/bg-right.svg" alt="image: background" data-aos="fade-down-left" data-aos-duration="1000">
+            <div class="header-row">
+                <a href="#" class="header-row__logo-link" data-aos="fade-down" data-aos-duration="700">
+                    <img class="header-row__logo-img" src="./assets/img/logo.svg" alt="icon: lead logo">
+                </a>
+                <div class="header-text header__text-wrap" data-aos="fade-down"  data-aos-duration="1000">
+                    <h1 class="header-text__title">Under Construction</h1>
+                    <h3 class="header-text__subtitle">We're making lots of improvements and will be back soon</h3>
+                </div>
+                <div class="header-timer header__timer-wrap" data-aos="fade-down"  data-aos-duration="1200">
+                    <div class="header-timer__inner days-wrap">
+                        <span class="header-timer__text days">92</span>
+                        <div class="header-timer__highlite days-highlite"></div>
+                    </div>      
+                    <span class="header-timer__colon">:</span>
+                    <div class="header-timer__inner hours-wrap">
+                        <span class="header-timer__text hours">11</span>
+                        <div class="header-timer__highlite hours-highlite"></div>
+                    </div> 
+                    <span class="header-timer__colon">:</span>
+                    <div class="header-timer__inner minutes-wrap">
+                        <span class="header-timer__text minutes">41</span>
+                        <div class="header-timer__highlite minutes-highlite"></div>
+                    </div> 
+                    <span class="header-timer__colon">:</span>
+                    <div class="header-timer__inner seconds-wrap">
+                        <span class="header-timer__text seconds">48</span>
+                        <div class="header-timer__highlite seconds-highlite"></div>
+                    </div>  
+                </div>
+                <div class="event-wrap" data-aos="fade-down"   data-aos-duration="1300">
+                    <p class="event-wrap__text">Check our event page when you wait:</p>
+                    <a class="event-wrap__link" href="https://learn.javascript.ru/" target="_blank">
+                        <span class="event-wrap__link-text">Go to the event</span>
+                        <img class="arrow-right" src="./assets/img/arrow.svg" alt="icon: arrow">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="overlay">
+            <div class="response">
+                <div class="response__title"></div>
+                <div class="response__subtitle"></div>
+                <button class="response__close-btn">Close</button>
+                <button class="response__crist-btn">
+                    <img class="response__crist-btn-img" src="./assets/img/close.svg" alt="icon: close">
+                </button>
+            </div>
+        </div>
+        <section class="subscription">
+            <div class="container subscription__container">
+                <form class="subscription-form" id="form">
+                    <input class="subscription-form__email-input" type="email" name="email" id="email" placeholder="Enter your Email and get notified">
+                    <button class="subscription-form__submit-btn" type="submit">
+                        <img class="arrow-right" src="./assets/img/arrow.svg" alt="icon: arrow">
+                    </button>
+                </form>
+                <a class="subscription__events-link" href="#events-section">
+                    <span class="subscription__events-link-text">Other Events</span>
+                    <img class="arrow-down" src="./assets/img/arrow.svg" alt="icon: arrow">
+                </a>
+            </div>
+        </section>
+        <section class="events" id="events-section">
+            <div class="container">
+                <div class="events-row">
+                    <h2 class="events-row__section-title"  data-aos="fade-down"  data-aos-duration="900">All events</h2>
+                    <div class="accordion">
+                        <div class="accordion__item active">
+                            <div class="accordion__event-heading">
+                                <span class="accordion__event-number">01</span>
+                                <span class="accordion__event-title">Hawaiian party</span>
+                            </div>
+                            <div class="accordion__event-info-wrap">
+                                <div class="accordion__event-info">
+                                    <span class="accordion__event-info-bg">01</span>
+                                    <span class="accordion__event-subtitle">Hawaiian party</span>
+                                    <span class="accordion__event-date">13.02.2023</span>
+                                    <a class="accordion__more-info-link" href="https://learn.javascript.ru/" target="_blank">More information</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__event-heading">
+                                <span class="accordion__event-number">02</span>
+                                <span class="accordion__event-title">Mafia party</span>
+                            </div>
+                            <div class="accordion__event-info-wrap">
+                                <div class="accordion__event-info">
+                                    <span class="accordion__event-info-bg">02</span>
+                                    <span class="accordion__event-subtitle">Mafia party</span>
+                                    <span class="accordion__event-date">13.02.2023</span>
+                                    <a class="accordion__more-info-link" href="https://learn.javascript.ru/" target="_blank">More information</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__event-heading">
+                                <span class="accordion__event-number">03</span>
+                                <span class="accordion__event-title">Party</span>
+                            </div>
+                            <div class="accordion__event-info-wrap">
+                                <div class="accordion__event-info">
+                                <span class="accordion__event-info-bg">03</span>
+                                    <span class="accordion__event-subtitle">Party</span>
+                                    <span class="accordion__event-date">13.02.2023</span>
+                                    <a class="accordion__more-info-link" href="https://learn.javascript.ru/" target="_blank">More information</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__event-heading">
+                                <span class="accordion__event-number">04</span>
+                                <span class="accordion__event-title">Party on the beach</span>
+                            </div>
+                            <div class="accordion__event-info-wrap">
+                                <div class="accordion__event-info">
+                                    <span class="accordion__event-info-bg">04</span>
+                                    <span class="accordion__event-subtitle">Party on the beach</span>
+                                    <span class="accordion__event-date">13.02.2023</span>
+                                    <a class="accordion__more-info-link" href="https://learn.javascript.ru/" target="_blank">More information</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__event-heading">
+                                <span class="accordion__event-number">05</span>
+                                <span class="accordion__event-title">Home Security</span>
+                            </div>
+                            <div class="accordion__event-info-wrap">
+                                <div class="accordion__event-info">
+                                    <span class="accordion__event-info-bg">05</span>
+                                    <span class="accordion__event-subtitle">Home Security</span>
+                                    <span class="accordion__event-date">13.02.2023</span>
+                                    <a class="accordion__more-info-link" href="https://learn.javascript.ru/" target="_blank">More information</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__event-heading">
+                                <span class="accordion__event-number">06</span>
+                                <span class="accordion__event-title">Network Design & Implementation</span>
+                            </div>
+                            <div class="accordion__event-info-wrap">
+                                <div class="accordion__event-info">
+                                    <span class="accordion__event-info-bg">06</span>
+                                    <span class="accordion__event-subtitle">Network Design & Implementation</span>
+                                    <span class="accordion__event-date">13.02.2023</span>
+                                    <a class="accordion__more-info-link" href="https://learn.javascript.ru/" target="_blank">More information</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__event-heading">
+                                <span class="accordion__event-number">07</span>
+                                <span class="accordion__event-title">System Design & Engineering</span>
+                            </div>
+                            <div class="accordion__event-info-wrap">
+                                <div class="accordion__event-info">
+                                    <span class="accordion__event-info-bg">07</span>
+                                    <span class="accordion__event-subtitle">System Design & Engineering</span>
+                                    <span class="accordion__event-date">13.02.2023</span>
+                                    <a class="accordion__more-info-link" href="https://learn.javascript.ru/" target="_blank">More information</a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__event-heading">
+                                <span class="accordion__event-number">08</span>
+                                <span class="accordion__event-title">Client Care Plans</span>
+                            </div>
+                            <div class="accordion__event-info-wrap">
+                                <div class="accordion__event-info">
+                                    <span class="accordion__event-info-bg">08</span>
+                                    <span class="accordion__event-subtitle">Client Care Plans</span>
+                                    <span class="accordion__event-date">13.02.2023</span>
+                                    <a class="accordion__more-info-link" href="https://learn.javascript.ru/" target="_blank">More information</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"></footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            disable: 'mobile',
+        });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

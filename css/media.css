@@ -1,0 +1,312 @@
+@media all and (max-width: 1470px) {
+    .event-number {
+        font-size: 32px;
+    }
+
+    .accordion__event-title {
+        font-size: 24px;
+    }
+}
+
+@media all and (max-width: 1080px) {
+    .header__bg-left {
+        top: -30px;
+        width: 32%;
+    }
+
+    .header__bg-right {
+        width: 32%;
+    }
+
+    .header-row {
+        padding-top: 98px;
+        padding-bottom: 154px;
+    }
+
+    .header-row__logo-link {
+        margin-bottom: 168px;
+    }
+
+    .header__text-wrap {
+        margin-bottom: 40px;
+    }
+
+    .header-text__title {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+
+    .header-text__subtitle {
+        font-size: 16px;
+    }
+
+    .header__timer-wrap {
+        margin-bottom: 40px;
+    }
+
+    .header-timer__text, .header-timer__colon {
+        font-size: 36px;
+    }
+
+    .header-timer__highlite {
+        width: 64px;
+        height: 40px;
+    }
+
+    .days-highlite {
+        background: url("../assets/img/time-highlights/days-mobile.svg") center no-repeat;
+    }
+    
+    .hours-highlite {
+        background: url("../assets/img/time-highlights/hours-mobile.svg") center no-repeat;
+    }
+    
+    .minutes-highlite {
+        background: url("../assets/img/time-highlights/minutes-mobile.svg") center no-repeat;
+    }
+    
+    .seconds-highlite {
+        background: url("../assets/img/time-highlights/seconds-mobile.svg") center no-repeat;
+    }
+
+    .event-wrap__text {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .subscription {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .subscription__container {
+        flex-direction: column;
+    }
+
+    .subscription-form {
+        margin-bottom: 15px;
+    }
+
+    .subscription-form__email-input {
+        width: 360px;
+        height: 41px;
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+
+    .subscription__events-link {
+        margin-left: 0;
+    }
+
+    .subscription-form__submit-btn {
+        right: 4px;
+        width: 33px;
+        height: 33px;
+    }
+
+    .events-row {
+        padding-top: 46px;
+        padding-bottom: 48px;
+    }
+
+    .events-row__section-title {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+
+    .accordion {
+        flex-direction: column;
+        height: 1175px;
+        transition: height 1s ease;
+    }
+
+    .accordion__item {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .accordion__item.active .accordion__event-heading{
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .accordion__item.active .accordion__event-info-wrap {
+        width: 100%;
+        height: 460px;
+        transition: height 1s ease;
+    }
+
+    .accordion__item.active .accordion__event-heading::after {
+        display: none;
+    }
+
+    .accordion__event-info-wrap {
+        width: 100%;
+        background-size: 100%;
+    }
+
+    .accordion__event-info-wrap::after {
+        display: none;
+    }
+
+    .accordion__event-heading {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: 85px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 0;
+        border-left: 0;
+        border-right: 0;
+        border-top: 4px solid #FFFFFF;
+    }
+
+    .accordion__event-title {
+        writing-mode: lr;
+        transform: rotate(0);
+    }
+
+    .accordion__event-number {
+        margin-top: 0;
+        margin-right: 32px;
+    }
+
+    .accordion__event-info-wrap {
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        height: 0;
+        transition: height 1s ease;
+    }
+
+    .accordion__event-info-bg {
+        top: -10px;
+        right: -25px;
+        left: auto;
+        font-size: 152px;
+    }
+
+    .accordion__event-info {
+        width: 100%;
+        height: 192px;
+        padding: 25px 40px 40px 40px;
+    }
+
+    .accordion__event-subtitle {
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+    
+    .accordion__event-date {
+        margin-bottom: 29px;
+        font-size: 16px;
+    }
+
+    .accordion__more-info-link {
+        width: 169px;
+        height: 44px;
+        padding: 12px 16px;
+        font-size: 16px;
+        border-left: 5px solid #FFFFFF;
+    }
+}
+
+@media all and (max-width: 570px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header__bg-left {
+        width: 47%;
+    }
+
+    .header__bg-right {
+        width: 43%;
+    }
+
+    .header-row {
+        padding-top: 79px;
+        padding-bottom: 120px;
+    }
+
+    .header-row__logo-link {
+        margin-bottom: 120px;
+    }
+
+    .header-text {
+        max-width: 286px;
+    }
+
+    .header-text__title {
+        margin-bottom: 16px;
+    }
+
+    .subscribe-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .subscription-form__email-input {
+        width: 280px;
+    }
+
+    .events-row {
+        padding-top: 59px;
+        padding-bottom: 52px;
+    }
+
+    .accordion {
+        height: 920px;
+    }
+
+    .accordion__item.active .accordion__event-info-wrap {
+        width: 100%;
+        height: 350px;
+        transition: height 1s ease;
+    }
+
+    .accordion__event-info {
+        height: 158px;
+        padding: 24px 20px;
+    }
+
+    .accordion__event-info-bg {
+        top: 14px;
+        right: -10px;
+        left: auto;
+        font-size: 80px;
+    }
+
+    .accordion__event-subtitle {
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+
+    .accordion__event-date {
+        margin-bottom: 22px;
+        font-size: 14px;
+    }
+
+    .accordion__event-heading {
+        height: 64px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .accordion__event-number {
+        font-size: 24px;
+    }
+
+    .accordion__event-title {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width: 359px) {
+    .response {
+        width: 300px;
+    }
+}
